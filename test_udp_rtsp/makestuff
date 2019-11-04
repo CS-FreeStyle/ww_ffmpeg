@@ -1,0 +1,1 @@
+gcc -o test test_ffmpeg.c my_lavlib.c -L/home/jlucas/FFMPEG/ffmpeg_build/lib -I/home/jlucas/FFMPEG/ffmpeg_build/include -lavcodec -lavutil -lavformat -lswscale -lavfilter -lavdevice -lpostproc -lswresample
